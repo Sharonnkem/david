@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --primary: #48a888;
+}
+
+body {
+  background: #EFEFEE;
+  font-family: 'Roboto', sans-serif;
+  color: #2F4157;
+}
+
+p {
+  font-size: 13px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

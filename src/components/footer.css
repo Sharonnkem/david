@@ -1,0 +1,12 @@
+.foot {
+    text-align: center;
+    background-color: #EFEFEE;
+    margin: 0;
+}
+
+.foot  p {
+    margin: 0;
+    padding: 2rem;
+    font-weight: 700;
+    font-size: 12px;
+}

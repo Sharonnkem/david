@@ -1,0 +1,158 @@
+.landing {
+    background-color: #efefef;
+    padding: 2rem 0.5rem;
+}
+
+.profile {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.profile2 {
+    width: 120px; 
+    height: 120px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    overflow: hidden; 
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.intro h5 {
+    margin: 0;
+    font-weight: 400;
+}
+
+.jobs h5 {
+    font-weight: 400;
+
+}
+
+.jobs1 h5 {
+    font-weight: 600;
+    font-size: 8px;
+}
+
+.jas {
+    margin: 0 2em;
+    text-align: center; 
+    width: 45px;
+    height: 40px;
+}
+
+.jobs1 img {
+    width: auto; 
+    height: auto; 
+    max-width: 100%;
+    max-height: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.heading {
+    display: inline-block;
+    position: relative;    
+  }
+
+.wave {
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    top: -28%;
+    left: -2%;
+    transform: translateY(-50%);
+}
+
+.tools {
+    display: flex;
+    margin: 1em;
+}
+
+.tools1 {
+    width: 40px;
+    height: 40px;
+    margin: 20px 15px;
+
+}
+
+.tools img {
+    width: 40px;
+    height: 40px;
+}
+
+.intro button {
+    display: flex;
+    border: 1px solid #2F4157;
+    border-radius: 10px;
+    padding: 14px 35px;
+    color: #2F4157;
+    font-size: 12px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.intro button:hover {
+    color: #efefef;
+    background-color: #2F4157;
+}
+
+.jobs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+.jobs1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .landing {
+        background-color: #efefef;
+        padding: 2rem 3rem;
+    }
+
+    .tools {
+        display: flex;
+        margin: 1em;
+    }
+    
+    .tools1 {
+        width: 10px;
+        height: 10px;
+        margin: 20px 15px;
+    
+    }
+    
+    .tools img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .jas {
+        margin: 0 1em;
+    }
+}
+
+
+

@@ -1,0 +1,32 @@
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  width: 30px;
+  height: 30px;
+  background-color: #2F4157;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  z-index: 1000;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.back-to-top.active {
+  display: flex;
+  opacity: 1;
+  transform: scale(1);
+}
+
+.back-to-top:hover {
+  background-color: #1a2b3c;
+}
+
+i.ri-arrow-up-s-fill {
+  font-size: 32px;
+}
