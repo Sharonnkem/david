@@ -11,7 +11,6 @@ import database from '../svg/database.svg';
 import design from '../svg/design.svg';
 import ux from '../svg/ux.svg';
 import Rectangle54 from '../images/Rectangle54.png';
-import Rectangle60 from '../images/Rectangle60.png';
 import front from '../svg/front.svg';
 import back from '../svg/back.svg';
 import './services.css';
