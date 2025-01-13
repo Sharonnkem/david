@@ -4,8 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import whatsapp1 from '../svg/whatsapp1.svg';
 import twitter1 from '../svg/twitter1.svg';
 import linkedin1 from '../svg/linkedin1.svg';
-import vectorleft from '../svg/vectorleft.svg';
-import vectorright from '../svg/vectorright.svg';
+import Vectorleft from '../svg/vectorleft.svg';
+import Vectorright from '../svg/vectorright.svg';
 import './socials.css';
 
 function Socials() {
@@ -39,8 +39,8 @@ function Socials() {
       <div>
       <button onClick={handleContactClick}>Contact Me</button>
         </div>
-        <img src={vectorleft} alt="vectorleft" className="prev"/>
-        <img src={vectorright} alt="vectorright" className="next"/>
+        <img src={Vectorleft} alt="vectorleft" className="prev"/>
+        <img src={Vectorright} alt="vectorright" className="next"/>
     </div>
   );
 }
