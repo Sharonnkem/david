@@ -51,7 +51,7 @@ function Services({ id }) {
             <h5>Database Administration</h5>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus..</p>
+            <p>Skilled in database administration, ensuring optimal performance, security, and scalability. Proficient in managing relational and NoSQL databases, implementing backups, tuning queries, and ensuring data integrity for seamless application functionality.</p>
           </div>
         </div>
 
@@ -63,7 +63,7 @@ function Services({ id }) {
             <h5>Backend Development</h5>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus..</p>
+            <p>Experienced in building robust backend systems with .NET, implementing APIs, managing databases, and ensuring scalability, security, and performance to deliver seamless, high-quality solutions for diverse applications.</p>
           </div>
         </div>
 
@@ -75,7 +75,7 @@ function Services({ id }) {
             <h5>ANPR Hardware Installation</h5>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus..</p>
+            <p>Proficient in deploying and configuring Automatic Number Plate Recognition (ANPR) hardware, including Einar cameras, ensuring accurate data capture, system integration, and operational efficiency for traffic enforcement and monitoring systems.</p>
           </div>
         </div>
 
@@ -87,7 +87,7 @@ function Services({ id }) {
             <h5>UX Design</h5>
           </div>
           <div>
-            <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus..</p>
+            <p>Designing user-centric interfaces that prioritize accessibility and aesthetics, ensuring intuitive navigation and enhanced user experiences through meticulous wireframing, prototyping, and testing across web and mobile platforms.</p>
           </div>
         </div>
       </div>
@@ -102,21 +102,22 @@ function Services({ id }) {
                 <div className='img'><img src={Rectangle54} alt="Rectangle54" /></div>
                 <div className="pro2">
                   <h3>Chithub back office solution</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. </p>
+                  <p>This a comprehensive back-office solution for traffic law enforcement, empowering users with real-time access to vehicle logs, efficient offense management, contest resolution, manual offense processing, and watchlist oversight, streamlining operations for improved compliance and enforcement outcomes. </p>
                   <button onClick={handleContactClick}>Learn more</button>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
               <div className="pro1">
-                <div className='img'><img src={Rectangle60} alt="Rectangle60" /></div>
+                <div className='img'><img src={Rectangle54} alt="Rectangle54" /></div>
                 <div className="pro2">
                   <h3>Chithub back office solution</h3>
-                  <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. </p>
+                  <p>This a comprehensive back-office solution for traffic law enforcement, empowering users with real-time access to vehicle logs, efficient offense management, contest resolution, manual offense processing, and watchlist oversight, streamlining operations for improved compliance and enforcement outcomes. </p>
                   <button onClick={handleContactClick}>Learn more</button>
                 </div>
               </div>
             </SwiperSlide>
+            
           </Swiper>
           <img src={front} alt="front" className="button-next" />
         </div>

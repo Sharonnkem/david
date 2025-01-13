@@ -1,0 +1,43 @@
+.quick-actions {
+    margin: 20px 0;
+    width: 100%;
+   
+  }
+
+.quick-actions2 {
+    border: 1px solid #2F415738;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 850px;
+}
+
+.actions span {
+    border: 1px solid #2F415738;
+    padding: 1px 4px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+  .quick-actions h3 {
+    margin: 0px 0 25px 0;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 2%;
+    width: 100%;
+  }
+  
+  .actions button {
+    padding:  13px 5px;
+    border: 1px solid #2F415738;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .actions button:hover {
+    background-color: #bdc3c7;
+  }
+  

@@ -1,0 +1,11 @@
+.overview-container {
+    display: flex;
+  }
+  
+  .dashboard-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #f5f7fa;
+    overflow-y: auto;
+  }
+  

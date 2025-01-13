@@ -49,7 +49,7 @@ function Explore() {
         </div>
         <div>
           <h3>LINK</h3>
-          <p>www.linkhere.org</p>
+          <p>etraffica-admin.ngrok.app</p>
         </div>
       </div>
 
@@ -91,17 +91,19 @@ function Explore() {
       <div className='explo6' data-aos="fade-left">
         <h3>OVERVIEW</h3>
 
-        <p>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. PLorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. PLorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. PLorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. PLorem ipsum dolor sit amet consectetur. </p>
+        <p>This a comprehensive back-office solution for traffic law enforcement, empowering users with real-time access to vehicle logs, efficient offense management, contest resolution, manual offense processing, and watchlist oversight, streamlining operations for improved compliance and enforcement outcomes. </p>
       </div>
 
       <div className='explo7' data-aos="fade-up">
         <h3>RESPONSIBILITIES/FEATURES</h3>
         <ul>
-          <li>Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.</li>
-          <li>Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetu.</li>
-          <li>Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet.</li>
-          <li>Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet consectetu.</li>
-          <li>Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus. Lorem ipsum dolor sit amet.</li>
+          <li>Installed and configured cameras for traffic monitoring with remote access for system diagnostics and maintenance. </li>
+          <li>Enabled mechanisms to push instance logs via HTTP and FTP protocols for seamless data transfer.</li>
+          <li>Implemented secure authentication and role-based authorization to ensure controlled access to features.</li>
+          <li>Implemented a robust watchlist system to flag and monitor specific vehicles of interest.</li>
+          <li>Integrated SignalR for real-time notifications, ensuring connected clients receive instant updates.</li>
+          <li>Built a cart-like system for managing tasks and to-dos efficiently within the application (Task Bin).</li>
+          <li>Created a robust email notification feature for critical updates and user communication.</li>
         </ul>
       </div>
 

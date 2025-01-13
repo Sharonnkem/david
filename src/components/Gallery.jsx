@@ -29,8 +29,8 @@ function Gallery() {
           <div className='gal4'><img src={Rectangle4} alt="Rectangle4" /></div>
         </div>
         <div className='gal2' data-aos="fade-up">
-          <h3>Images from work</h3>
-          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <h3>Images From Work</h3>
+          <p>Some images and videos of me at work.</p>
           <span onClick={handleContactClick}>Take a tour</span>
         </div>
       </div>

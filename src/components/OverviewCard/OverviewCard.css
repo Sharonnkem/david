@@ -1,0 +1,20 @@
+.overview-card {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    background-color: #2F4157;
+    max-width: 150px;
+  }
+  
+  .overview-card h4 {
+    margin-bottom: 10px;
+  }
+  
+  .overview-card p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  

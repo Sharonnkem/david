@@ -33,12 +33,20 @@ const Navbar = () => {
       )}
 
       <div className='cv'>
-        <div className='cv2'>
+        <a 
+          href="../assets/David_CV.pdf" 
+          download="David_CV.pdf"     
+          className='cv2'
+        >
           <p>CV</p>
-        </div>
-        <div className='cv1'>
+        </a>
+        
+        <a 
+          href="mailto:davideshett5@gmail.com" 
+          className='cv1'
+        >
           <p>davideshett5@gmail.com</p>
-        </div>
+        </a>
       </div>
     </nav>
   );

@@ -21,6 +21,11 @@
         
     }
 
+    .cv a {
+        text-decoration: none;
+        color: #454545;
+    }
+
     .cv p {
         margin: 0;
         font-size: 12px;
