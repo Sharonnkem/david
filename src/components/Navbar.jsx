@@ -50,7 +50,7 @@ function Navbar() {
 
       <div className="cv">
         <a
-          href="/assets/David_CV.pdf"
+          href="https://drive.google.com/file/d/12pQsnovZ_a_6TnSAv04pC4S0QQnEA94T/view"
           download="David_CV.pdf"
           className="cv2"
         >
