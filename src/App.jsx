@@ -15,6 +15,7 @@ import Pictures from './components/Pictures';
 import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Overview from './pages/Overview';
+import Resume from './components/Resume';
 
 function App() {
   useEffect(() => {
@@ -61,6 +62,7 @@ function App() {
           }
         />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/resume" element={<Resume />} />
         <Route path="/pictures" element={<Pictures />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

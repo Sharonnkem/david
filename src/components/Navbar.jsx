@@ -1,55 +1,64 @@
-import { useLocation, useNavigate } from 'react-router-dom';
-import whatsapp from '../svg/whatsapp.svg';
-import twitter from '../svg/twitter.svg';
-import linkedin from '../svg/linkedin.svg';
-import github from '../svg/github.svg';
-import navigateback from '../svg/navigateback.svg';
-import './navbar.css';
+import { Link, useLocation } from "react-router-dom";
+import Ellipse from "../svg/Ellipse.svg";
+import "./navbar.css";
 
-const Navbar = () => {
-  const location = useLocation();
-  const navigate = useNavigate();
-  const isLandingPage = location.pathname === '/'; 
-
-  const handleNavigation = () => {
-    navigate('/'); 
-  };
+function Navbar() {
+  const location = useLocation(); 
 
   return (
     <nav>
-      {isLandingPage && (
-        <div className='socials'>
-          <img src={whatsapp} alt="whatsapp" />
-          <img src={twitter} alt="twitter" />
-          <img src={linkedin} alt="linkedin" />
-          <img src={github} alt="github" />
-        </div>
-      )}
+      <div>
+        <h1>
+          <Link to="/">David</Link>
+          <img src={Ellipse} alt="Ellipse" />
+        </h1>
+      </div>
 
-      {!isLandingPage && (
-        <div className='navi' onClick={handleNavigation}>
-          <img src={navigateback} alt="navigateback" />
-        </div>
-      )}
+      <div>
+        <ul>
+          <li>
+            <Link to="/" className={location.pathname === "/" ? "active" : ""}>
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/resume"
+              className={location.pathname === "/resume" ? "active" : ""}
+            >
+              Resume
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/pictures"
+              className={location.pathname === "/pictures" ? "active" : ""}
+            >
+              Gallery
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={location.pathname === "/contact" ? "active" : ""}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
 
-      <div className='cv'>
-        <a 
-          href="../assets/David_CV.pdf" 
-          download="David_CV.pdf"     
-          className='cv2'
+      <div className="cv">
+        <a
+          href="/assets/David_CV.pdf"
+          download="David_CV.pdf"
+          className="cv2"
         >
           <p>CV</p>
-        </a>
-        
-        <a 
-          href="mailto:davideshett5@gmail.com" 
-          className='cv1'
-        >
-          <p>davideshett5@gmail.com</p>
         </a>
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;

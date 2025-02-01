@@ -1,4 +1,4 @@
-import david from "../../images/david.jpg";
+import david from "../../images/david.png";
 import overview from '../../svg/overview.svg';
 import hero from '../../svg/hero.svg';
 import services from '../../svg/services.svg';

@@ -1,0 +1,93 @@
+.resume {
+    display: flex;
+    padding: 60px 40px;
+    background-color: #EFEFEE;
+    gap: 8rem;
+}
+
+.address {
+    max-width: 208px;
+    width: 100%;
+}
+
+.exper {
+    margin-right: 5rem;
+}
+
+.abu {
+    margin-bottom: 5rem;
+}
+
+.abu p {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.tech ul,
+.sill ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tech ul li,
+.sill ul li {
+    margin-bottom: 6px;
+    font-size: 0.83em;
+}
+
+.tech {
+    margin-bottom: 3rem;
+}
+
+.name2 {
+    max-width: 600px;
+}
+
+.name3 {
+    border-bottom: 1px solid #E0E0DF;
+    padding-bottom: 35px;
+}
+
+.ping {
+    margin-right: 8rem;
+}
+
+.mymy1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mymy1 h3, 
+.mymy1 h4 {
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.mymy1 span {
+    font-weight: normal;
+}
+
+.mymy3 span {
+    display: flex;
+    border: 1px solid #2F4157;
+    border-radius: 5px;
+    padding: 5px 12px;
+    font-size: 0.83em;
+}
+
+.mymy3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 25px 0;
+}
+
+.mymy {
+    border-bottom: 1px solid #E0E0DF;
+    padding-bottom: 10px;
+}
+
+.mymy h2 {
+    margin-bottom: 10px;
+    margin-top: 26px;
+}

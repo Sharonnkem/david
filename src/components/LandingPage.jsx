@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import david from '../images/david.jpg';
+import david from '../images/david.png';
 import wave from '../images/wave.png';
 import INEC from '../images/INEC.png';
 import CHITHUB from '../images/CHITHUB.png';
@@ -42,9 +42,9 @@ function LandingPage() {
           Hi, I&#39;m <span>David Eshett</span>
         </h3>
         <h5>
-          Backend .NET Developer creating secure, scalable APIs and backend solutions.
+        I am a skilled Backend Developer with expertise in building robust, scalable applications using <br/> C# and .NET technologies. I specialize in designing and implementing APIs, integrating 
           <br />
-          Let&#39;s turn ideas into reality!
+          databases, and ensuring secure, efficient systems.
         </h5>
 
         <div className='tools' data-aos="zoom-in">
