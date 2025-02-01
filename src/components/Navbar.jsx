@@ -49,14 +49,17 @@ function Navbar() {
       </div>
 
       <div className="cv">
-        <a
-          href="https://drive.google.com/file/d/12pQsnovZ_a_6TnSAv04pC4S0QQnEA94T/view"
-          download="David_CV.pdf"
-          className="cv2"
-        >
-          <p>CV</p>
-        </a>
-      </div>
+  <a
+    href="https://drive.google.com/file/d/12pQsnovZ_a_6TnSAv04pC4S0QQnEA94T/view"
+    download="David_CV.pdf"
+    className="cv2"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <p>CV</p>
+  </a>
+</div>
+
     </nav>
   );
 }
