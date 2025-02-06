@@ -8,6 +8,12 @@
     padding: 2em ;
 }
 
+.view {
+    height: 100vh;
+    background-color: #EFEFEE;
+
+}
+
 .pic2 {
     margin-bottom: 3em;
 }

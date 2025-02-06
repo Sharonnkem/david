@@ -39,6 +39,7 @@ function Pictures() {
   }, []);
 
   return (
+    <div className="view">
     <div className="pic" data-aos="fade-up">
       <div className="pic2" data-aos="zoom-in">
         <h3>Gallery</h3>
@@ -66,6 +67,7 @@ function Pictures() {
           !loading && <p>No images available.</p>
         )}
       </div>
+    </div>
     </div>
   );
 }
