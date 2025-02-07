@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import group from '../svg/group.svg';
 import "./pictures.css";
 
 function Pictures() {
@@ -44,8 +45,9 @@ function Pictures() {
       <div className="pic2" data-aos="zoom-in">
         <h3>Gallery</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur. Arcu sociis id pharetra in nulla mattis nec. Pulvinar in egestas vitae lectus.
-        </p>
+        A collection of my hands-on work in installing, configuring, and integrating enforcement technologies with powerful backend systems.        </p>
+                  <div className='gup'><img src={group} alt="group" /></div>
+        
       </div>
 
       {loading && <p>Loading images...</p>}
