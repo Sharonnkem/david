@@ -11,7 +11,7 @@ import ux from '../svg/ux.svg';
 import display1 from '../images/display1.jpg';
 import display2 from '../images/display2.jpg';
 import display3 from '../images/display3.jpg';
-import arrow1 from '../svg/arrow1.svg';
+import arrow1 from '../svg/Arrow1.svg';
 import './services.css';
 import PropTypes from 'prop-types'; 
 

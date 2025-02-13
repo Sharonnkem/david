@@ -1,4 +1,7 @@
+import { useEffect } from 'react';
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import frame1 from '../images/frame1.jpg';
 import frame2 from '../images/frame2.jpg';
 import frame3 from '../images/frame3.jpg';
@@ -8,14 +11,19 @@ import "./project.css";
 
 
 function Project() {
+
+    useEffect(() => {
+        AOS.init({ duration: 1000 });
+      }, []);
+
   return (
     <div className='jet2'>
-      <h2>Projects</h2>
-      <p>Below are some of the projects I have worked on. Please note that some projects are <br/>
+      <h2 data-aos="fade-down">Projects</h2>
+      <p data-aos="fade-up">Below are some of the projects I have worked on. Please note that some projects are <br/>
       private and proprietary to the organizations I have collaborated with.</p>
       
         <div className='jet4'>
-        <div className='jet1'>
+        <div className='jet1' data-aos="fade-up">
             <div className='jet'>
             <Link to="/explore"><img src={frame1} alt="frame1"  /></Link>
             </div>
@@ -30,7 +38,7 @@ with an end-to-end traffic enforcement and penalty management solution to keep c
 safe and promote the right behaviors in road users and security.</span>
         </div>
 
-        <div className='jet1'>
+        <div className='jet1' data-aos="fade-up" data-aos-delay="100">
         <div className='jet'>
         <Link to="/explore1"><img src={frame2} alt="frame2"  /></Link>
             </div>
@@ -45,7 +53,7 @@ with an end-to-end traffic enforcement and penalty management solution to keep c
 safe and promote the right behaviors in road users and security.</span>
         </div>
 
-        <div className='jet1'>
+        <div className='jet1' data-aos="fade-up" data-aos-delay="200">
         <div className='jet'>
         <Link to="/explore2"><img src={frame3} alt="frame3"  /></Link>
             </div>
@@ -60,7 +68,7 @@ with an end-to-end traffic enforcement and penalty management solution to keep c
 safe and promote the right behaviors in road users and security.</span>
         </div>
 
-        <div className='jet1'>
+        <div className='jet1' data-aos="fade-up" data-aos-delay="300">
         <div className='jet'>
         <Link to="/explore3"><img src={frame4} alt="frame4"  /></Link>
             </div>
@@ -75,7 +83,7 @@ with an end-to-end traffic enforcement and penalty management solution to keep c
 safe and promote the right behaviors in road users and security.</span>
         </div>
 
-        <div className='jet1'>
+        <div className='jet1' data-aos="fade-up" data-aos-delay="400">
         <div className='jet'>
         <Link to="/explore4"><img src={frame5} alt="frame5"  /></Link>
             </div>
