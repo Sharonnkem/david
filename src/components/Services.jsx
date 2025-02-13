@@ -21,7 +21,6 @@ function Services({ id }) {
   }, []);
 
 
-
   return (
     <div className='services'>
       <h3 data-aos="fade-down">Services</h3>
