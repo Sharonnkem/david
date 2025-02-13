@@ -7,6 +7,11 @@
         padding:  10px 50px;
         border-bottom: 1px solid #E0E0DF;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        position: relative;
+        top: 0;
+        left: 0;
+        transition: 0.5s;
+        z-index: 10000;
     }
 
     nav h1 a {
@@ -75,10 +80,73 @@
 
     }
 
-  @media (max-width: 768px) {
-    nav {
-        padding: 20px 15px;
+    .menu-toggle {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
     }
+    
+    .menu-toggle img {
+      width: 30px;
+    }
+
+   
+
+  @media (max-width: 768px) {
+
+    .navbar {
+      display: flex;
+      align-items: center;
+      padding: 10px 20px;
+    }
+  
+    .dav2 {
+      display: flex;
+      align-items: center;
+    }
+    
+  
+    .menu-toggle {
+      order: 1;
+    }
+
+    .menu-toggle {
+      display: block;
+    }
+
+    .nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #EFEFEE;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links ul {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: start;
+    justify-content: start;
+    height: 100vh;
+    padding: 0;
+  }
+
+  nav ul li  {
+    border-bottom: 1px solid #E0E0DF;
+    width: 100%;
+    align-items: start;
+    display: flex;
+    padding-bottom: 5px;
+}
 
     .socials img {
         padding: 5px;

@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';import Rectangle60 from '../images/Rectangle60.png';
-import explore1 from '../images/explore1.jpg';
-import explore2 from '../images/explore2.jpg';
-import explore3 from '../images/explore3.jpg';
+import 'aos/dist/aos.css';
+import explore4 from '../images/explore4.jpg';
+import explore5 from '../images/explore5.jpg';
+import explore6 from '../images/explore6.jpg';
+import explore7 from '../images/explore7.jpg';
 import c from '../svg/c.svg';
+import figma from '../svg/figma.svg';
 import file from '../svg/file.svg';
 import docker from '../svg/docker.svg';
 import sql from '../svg/sql.svg';
@@ -16,8 +18,8 @@ import './explore.css';
 
 
 
-function Explore() {
-  const images = [Rectangle60, explore2, explore3,  explore1]; 
+function Explore1() {
+  const images = [explore4, explore5, explore6,  explore7]; 
   const [activeIndex, setActiveIndex] = useState(0); 
 
   useEffect(() => {
@@ -41,16 +43,16 @@ function Explore() {
       <div className='explo1' data-aos="fade-up">
         <div>
           <h3>PROJECT</h3>
-          <p>CHITHUB Back Office Solution</p>
+          <p>Personal website</p>
         </div>
         <div>
           <h3>ROLE</h3>
-          <p>Backend Developer/APNR Installation Engineer</p>
+          <p>Backend Developer/UI/UX designer</p>
         </div>
         <div>
           <h3>LINK</h3>
-          <a href="https://www.chithub.com.ng" target="_blank" rel="noopener noreferrer">
-                          <p>https://www.chithub.com.ng</p>
+          <a href="https://david-i7kg.vercel.app" target="_blank" rel="noopener noreferrer">
+                          <p>https://david-i7kg.vercel.app</p>
                         </a>
         </div>
       </div>
@@ -93,19 +95,16 @@ function Explore() {
       <div className='explo6' data-aos="fade-left">
         <h3>OVERVIEW</h3>
 
-        <p>This a comprehensive back-office solution for traffic law enforcement, empowering users with real-time access to vehicle logs, efficient offense management, contest resolution, manual offense processing, and watchlist oversight, streamlining operations for improved compliance and enforcement outcomes. </p>
+        <p>This portfolio showcases my expertise as a .NET Backend Developer, highlighting a range of projects that demonstrate my ability to design and implement scalable, high-performance backend systems. It features my work in building RESTful APIs, authentication and authorization systems, cloud-based solutions, and database-driven applications. </p>
       </div>
 
       <div className='explo7' data-aos="fade-up">
         <h3>RESPONSIBILITIES/FEATURES</h3>
         <ul>
-          <li>Installed and configured cameras for traffic monitoring with remote access for system diagnostics and maintenance. </li>
-          <li>Enabled mechanisms to push instance logs via HTTP and FTP protocols for seamless data transfer.</li>
-          <li>Implemented secure authentication and role-based authorization to ensure controlled access to features.</li>
-          <li>Implemented a robust watchlist system to flag and monitor specific vehicles of interest.</li>
-          <li>Integrated SignalR for real-time notifications, ensuring connected clients receive instant updates.</li>
-          <li>Built a cart-like system for managing tasks and to-dos efficiently within the application (Task Bin).</li>
-          <li>Created a robust email notification feature for critical updates and user communication.</li>
+          <li>Designed the UI on Figma for both mobile and desktop views, ensuring a seamless user experience. </li>
+          <li>Implemented the Contact Me feature to enable email communication directly from the form.</li>
+          <li>Integrated Cloudinary for efficient media file storage and uploads.</li>
+          <li>Collaborated closely with the frontend developer to bring the project to life, ensuring smooth integration between backend and UI.</li>
         </ul>
       </div>
 
@@ -130,6 +129,9 @@ function Explore() {
             <img src={cctv1} alt="cctv1" />
             </div>
             <div className='tool1'>
+            <img src={figma} alt="figma" />
+            </div>
+            <div className='tool1'>
             <img src={mongo} alt="mongo" />
             </div>
             
@@ -140,4 +142,4 @@ function Explore() {
   );
 }
 
-export default Explore;
+export default Explore1;

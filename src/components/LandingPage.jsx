@@ -12,7 +12,7 @@ import c from '../svg/c.svg';
 import file from '../svg/file.svg';
 import docker from '../svg/docker.svg';
 import sql from '../svg/sql.svg';
-import cctv from '../svg/cctv.svg';
+import cctv1 from '../svg/cctv1.svg';
 import mongo from '../svg/mongo.svg';
 import jet from '../svg/jet.svg';
 import './landingPage.css';
@@ -53,7 +53,7 @@ function LandingPage() {
           <div className='tools1'><img src={file} alt="file" /></div>
           <div className='tools1'><img src={docker} alt="docker" /></div>
           <div className='tools1'><img src={sql} alt="sql" /></div>
-          <div className='tools1'><img src={cctv} alt="cctv" /></div>
+          <div className='tools1'><img src={cctv1} alt="cctv1" /></div>
           <div className='tools1'><img src={mongo} alt="mongo" /></div>
           <div className='tools1'><img src={jet} alt="jet" /></div>
         </div>

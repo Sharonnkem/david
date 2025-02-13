@@ -1,0 +1,116 @@
+.jet2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: #EFEFEE;
+    height: 120vh;
+}
+
+.jet4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr)); 
+    gap: 2rem ; 
+    justify-items: center;
+    padding: 3rem 4rem;
+    align-items: center;
+    max-width: 1000px;
+    margin: 2rem auto;
+}
+
+.jet1 {
+    max-width: 300px;
+    width: 220px;
+    background-color: #FFFFFF;
+    text-align: start;
+    border: 1px solid #E0E0DF;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: 300px;
+    background-color: #FFFFFF;
+    text-align: start;
+    border: 1px solid #E0E0DF;
+    border-radius: 5px;
+    padding: 5px 10px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; 
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+}
+  
+  
+.jet1:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  
+}
+
+.jet1 h5 {
+    margin: 0px 0 4px 0;
+}
+
+
+.jet {
+    max-width: 261px;
+    max-height: 120px;
+}
+
+.jet img {
+    max-width: 261px;
+    max-height: 120px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+
+.jet5 {
+    padding: 1rem 0.8rem 1rem 1rem;
+    border-top: 1px solid #E0E0DF;
+}
+
+.jet5 p {
+    font-size: 0.6rem;
+    margin: 0;
+}
+
+@media (max-width: 1200px) {
+    .jet2 {
+        height: 180vh;
+    }
+    .jet4 {
+        grid-template-columns: repeat(2, minmax(280px, 1fr));
+        padding: 4rem 0;
+      }
+  
+     
+  }
+  
+  @media (max-width: 768px) {
+    .jet4 {
+        grid-template-columns: repeat(1, minmax(40px, 1fr));
+            padding: 4rem 1rem;
+            gap: 0.5rem;
+            margin: 3px;
+  
+    }
+   
+  }
+  

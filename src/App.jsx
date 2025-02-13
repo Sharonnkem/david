@@ -16,6 +16,11 @@ import Contact from './components/Contact';
 import ScrollToTop from './components/ScrollToTop';
 import Overview from './pages/Overview';
 import Resume from './components/Resume';
+import Project from './components/Project';
+import Explore1 from './components/Explore1';
+import Explore2 from './components/Explore2';
+import Explore3 from './components/Explore3';
+import Explore4 from './components/Explore4';
 
 function App() {
   useEffect(() => {
@@ -55,17 +60,22 @@ function App() {
               <LandingPage />
               <Services id="services-section" />
               <Gallery />
-              <Socials />
-              <Footer />
-              <BackToTopBtn scroll={scroll} />
+              <Socials />   
             </>
           }
         />
         <Route path="/explore" element={<Explore />} />
+        <Route path="/explore1" element={<Explore1/>} />
+        <Route path="/explore2" element={<Explore2/>} />
+        <Route path="/explore3" element={<Explore3 />} />
+        <Route path="/explore4" element={<Explore4 />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/pictures" element={<Pictures />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/project" element={<Project />} />
       </Routes>
+      <BackToTopBtn scroll={scroll} />
+      <Footer />
     </>
   );
 }

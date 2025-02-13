@@ -34,6 +34,11 @@
     object-fit: cover; 
     border-radius: 5px; 
 }
+
+.gup img {
+    width: 100%;
+    max-width: 646px;
+}
   
 
 

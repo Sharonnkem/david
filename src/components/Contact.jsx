@@ -85,6 +85,7 @@ function Contact() {
   
 
   return (
+    <div className="conts">
     <div className="cont">
       <div className="cont1" data-aos="fade-right">
         <h3>Contact Me</h3>
@@ -180,6 +181,7 @@ function Contact() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

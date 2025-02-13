@@ -171,4 +171,4 @@ I configured <strong>ANPR cameras</strong> and set up <strong>networking</strong
   )
 }
 
-export default Resume
+export default Resume;

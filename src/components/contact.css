@@ -1,9 +1,12 @@
+
 .cont {
     background-color: #efefef;
     padding: 2em;
     text-align: center;
-    height: 100vh;
+    height: 120vh;
 }
+
+
 
 .cont1 {
     margin-bottom: 5em;
@@ -135,10 +138,16 @@ form button:hover {
     gap: 50px;
 }
 
+@media (max-width: 1200px) {
+    .cont {
+        height: 180vh;
+    }
+}
 
 @media (max-width: 768px) {
     .cont {
         padding: 2em 1em;
+        height: 100%;
     }
 
     .cont1 {
@@ -154,7 +163,7 @@ form button:hover {
     }
 
     input {
-        max-width: 85%;
+        max-width: 92%;
     }
 
     textarea {
@@ -167,5 +176,15 @@ form button:hover {
         justify-content: center;
         align-items: center;
         gap: 50px;
+    }
+
+    form {
+
+        max-width: 320px;
+
+    }
+
+    .card {
+        max-width: 300px;
     }
 }

@@ -3,6 +3,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import group from '../svg/group.svg';
 import "./pictures.css";
+import Footer from "./Footer";
 
 function Pictures() {
   const [galleryImages, setGalleryImages] = useState([]); 
@@ -70,6 +71,7 @@ function Pictures() {
         )}
       </div>
     </div>
+    <Footer />
     </div>
   );
 }
