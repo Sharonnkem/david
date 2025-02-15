@@ -43,6 +43,7 @@
     transform: translateX(-50%);
     opacity: 0;
     transition: opacity 0.3s;
+    font-size: 0.83rem;
 }
 
 .tooltip-text::after {

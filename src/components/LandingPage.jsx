@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import david from '../images/david.png';
@@ -23,13 +24,7 @@ function LandingPage() {
     AOS.init({ duration: 1200, once: true });
   }, []);
 
-  const handleScrollToServices = () => {
-    const servicesSection = document.getElementById('services-section');
-    if (servicesSection) {
-      servicesSection.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
+  
   return (
     <div className='landing'>
       <div className='profile' data-aos="fade-down">
@@ -59,8 +54,9 @@ function LandingPage() {
         </div>
 
         <div data-aos="fade-up">
-          <button onClick={handleScrollToServices}>&#123; Explore Projects &#125;</button>
+        <Link to="/project"><button >&#123; Explore Projects &#125;</button></Link>
         </div>
+        
       </div>
 
       <div className='jobs' data-aos="fade-left">

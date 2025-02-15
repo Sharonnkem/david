@@ -54,7 +54,6 @@ input {
     border-radius: 6px;
     border: 1px solid #B2B0B0;
     background-color: #FFFEFE;
-    color: #B2B2B2;
 }
 
 textarea {
@@ -64,7 +63,6 @@ textarea {
     font-size: 15px;
     border: 1px solid #B2B0B0;
     background-color: #FFFEFE;
-    color: #B2B2B2;
     max-width: 350px;
 }
 

@@ -53,6 +53,15 @@ function Navbar() {
           </li>
           <li>
             <Link 
+              to="/project" 
+              className={location.pathname === "/project" ? "active" : ""}
+              onClick={handleLinkClick}
+            >
+              Projects
+            </Link>
+          </li>
+          <li>
+            <Link 
               to="/contact" 
               className={location.pathname === "/contact" ? "active" : ""}
               onClick={handleLinkClick}

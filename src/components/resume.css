@@ -91,3 +91,96 @@
     margin-bottom: 10px;
     margin-top: 26px;
 }
+
+.open {
+    display: none;
+}
+
+.hide {
+    display: contents;
+}
+
+
+@media (max-width: 1200px) {
+
+    .resume {
+        padding: 40px 20px;
+    }
+    
+    .hide {
+        display: none;
+    }
+
+    .open {
+        display: contents;
+    }
+
+    .small {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .small1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .name1 img{
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .abu {
+        margin-bottom: 0;
+    }
+
+    .abu p {
+        margin: 0;
+        font-size: 0.83rem;
+    }
+
+    .mymy1 {
+        display: flex;
+        flex-direction: column;
+    }
+     
+    .name2 {
+        max-width: 100%;
+    }
+    
+    .tech ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px 10px;
+    }
+
+    .tech ul li  {
+        display: flex;
+        background-color: #FFFFFF;
+        border-radius: 5px;
+        padding: 10px 12px;
+        font-size: 0.83em;
+    }
+
+    .ping {
+        margin-right: 0;
+    }
+
+    .mymy1 h4 {
+        margin: 0;
+    }
+
+    
+  }
+  
+  @media (max-width: 768px) {
+    .mymy1 h3, 
+    .mymy1 h4 {
+    font-size: 16px;
+}
+
+    .mymy1 {
+        max-width: 300px;
+    }
+  }

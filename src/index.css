@@ -5,7 +5,7 @@ body {
   color: #2F4157;
   font-family: 'Open Sans', sans-serif;
   max-width: 2000px;
-
+  padding-top: 90px; 
 }
 
 h1, h2, h3,h5 {

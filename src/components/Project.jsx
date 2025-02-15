@@ -48,9 +48,7 @@ safe and promote the right behaviors in road users and security.</span>
                           <p>https://david-i7kg.vercel.app</p>
                         </a>
             </div>
-            <span className='tooltip-text'>ChitHub provides traffic enforcement agencies at both state and federal government levels 
-with an end-to-end traffic enforcement and penalty management solution to keep cities 
-safe and promote the right behaviors in road users and security.</span>
+            <span className='tooltip-text'>This portfolio showcases my expertise as a .NET Backend Developer, highlighting a range of projects that demonstrate my ability to design and implement scalable, high-performance backend systems. It features my work in building RESTful APIs, authentication and authorization systems, cloud-based solutions, and database-driven applications.</span>
         </div>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="200">
@@ -63,9 +61,7 @@ safe and promote the right behaviors in road users and security.</span>
                           <p>https://auth-app-bice-nu.vercel.app/</p>
                         </a>
             </div>
-            <span className='tooltip-text'>ChitHub provides traffic enforcement agencies at both state and federal government levels 
-with an end-to-end traffic enforcement and penalty management solution to keep cities 
-safe and promote the right behaviors in road users and security.</span>
+            <span className='tooltip-text'>Authie is an authentication project designed to provide a seamless and secure user management experience. It supports OTP-based signup, email confirmation, and comprehensive account management, ensuring user security and convenience.</span>
         </div>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="300">
@@ -78,9 +74,7 @@ safe and promote the right behaviors in road users and security.</span>
                           <p>https://danfo-admin.netlify.app/</p>
                         </a>
             </div>
-            <span className='tooltip-text'>ChitHub provides traffic enforcement agencies at both state and federal government levels 
-with an end-to-end traffic enforcement and penalty management solution to keep cities 
-safe and promote the right behaviors in road users and security.</span>
+            <span className='tooltip-text'>Danfo enables citizens to report traffic offenses in real time, enhancing road safety and law enforcement efficiency. It provides a seamless platform for submitting reports, including offender details, location data, and media evidence. Law enforcement agencies can review, verify, and take action on reported violations, ensuring swift and effective enforcement.</span>
         </div>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="400">
@@ -93,9 +87,7 @@ safe and promote the right behaviors in road users and security.</span>
                           <p>still in design phase. </p>
                         </a>
             </div>
-            <span className='tooltip-text'>ChitHub provides traffic enforcement agencies at both state and federal government levels 
-with an end-to-end traffic enforcement and penalty management solution to keep cities 
-safe and promote the right behaviors in road users and security.</span>
+            <span className='tooltip-text'>Ballerholic is a comprehensive platform designed to manage and analyze player and team performance in basketball competitions. The system provides real-time and historical statistics, tracks game results, and offers insights to players, coaches, and analysts.</span>
         </div>
 
       </div>
