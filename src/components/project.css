@@ -68,13 +68,27 @@
     margin: 0px 0 4px 0;
 }
 
-
-.jet {
+.je {
     max-width: 261px;
     max-height: 120px;
 }
+.jet {
+    display: flex;
+    max-width: 261px;
+    max-height: 120px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+}
 
-.jet img {
+.dav {
+    max-width: 80px;
+    max-height: 80px;
+    width: 80px;
+    height: 80px;
+}
+
+.dav1 {
     max-width: 261px;
     max-height: 120px;
     width: 100%;

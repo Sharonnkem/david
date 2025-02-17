@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
-import 'aos/dist/aos.css';import Rectangle60 from '../images/Rectangle60.png';
-import explore1 from '../images/explore1.jpg';
-import explore2 from '../images/explore2.jpg';
-import explore3 from '../images/explore3.jpg';
+import 'aos/dist/aos.css';
+import Rectangle60 from '../images/explore16.jpg';
+import explore1 from '../images/explore16.jpg';
+import explore2 from '../images/explore16.jpg';
+import explore3 from '../images/explore16.jpg';
 import c from '../svg/c.svg';
 import file from '../svg/file.svg';
 import docker from '../svg/docker.svg';

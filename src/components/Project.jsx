@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 import { Link } from "react-router-dom";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import frame1 from '../images/frame1.jpg';
-import frame2 from '../images/frame2.jpg';
-import frame3 from '../images/frame3.jpg';
-import frame4 from '../images/frame4.jpg';
-import frame5 from '../images/frame5.jpg';
+import frame1 from '../svg/frame1.svg';
+import frame2 from '../svg/frame2.svg';
+import frame3 from '../svg/frame3.svg';
+import frame4 from '../svg/frame4.svg';
+import frame5 from '../svg/frame5.svg';
 import "./project.css";
 
 
@@ -25,7 +25,7 @@ function Project() {
         <div className='jet4'>
         <div className='jet1' data-aos="fade-up">
             <div className='jet'>
-            <Link to="/explore"><img src={frame1} alt="frame1"  /></Link>
+            <Link to="/explore"><img src={frame1} alt="frame1" className='dav' /></Link>
             </div>
             <div className='jet5'>
                 <h5>Chithub</h5>
@@ -40,7 +40,7 @@ safe and promote the right behaviors in road users and security.</span>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="100">
         <div className='jet'>
-        <Link to="/explore1"><img src={frame2} alt="frame2"  /></Link>
+        <Link to="/explore1"><img src={frame2} alt="frame2" className='dav' /></Link>
             </div>
             <div className='jet5'>
                 <h5>Personal website</h5>
@@ -53,7 +53,7 @@ safe and promote the right behaviors in road users and security.</span>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="200">
         <div className='jet'>
-        <Link to="/explore2"><img src={frame3} alt="frame3"  /></Link>
+        <Link to="/explore2"><img src={frame3} alt="frame3" className='dav' /></Link>
             </div>
             <div className='jet5'>
                 <h5>Authie</h5>
@@ -66,7 +66,7 @@ safe and promote the right behaviors in road users and security.</span>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="300">
         <div className='jet'>
-        <Link to="/explore3"><img src={frame4} alt="frame4"  /></Link>
+        <Link to="/explore3"><img src={frame4} alt="frame4" className='dav' /></Link>
             </div>
             <div className='jet5'>
                 <h5>Danfo</h5>
@@ -79,7 +79,7 @@ safe and promote the right behaviors in road users and security.</span>
 
         <div className='jet1' data-aos="fade-up" data-aos-delay="400">
         <div className='jet'>
-        <Link to="/explore4"><img src={frame5} alt="frame5"  /></Link>
+        <Link to="/explore4"><img src={frame5} alt="frame5" className='dav' /></Link>
             </div>
             <div className='jet5'>
                 <h5>Ballerholic</h5>

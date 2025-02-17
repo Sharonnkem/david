@@ -66,8 +66,20 @@
     }
 
     .gal3 {
+        display: flex;
+        flex-direction: column;
         padding: 10px;
         margin: 0.5rem;
         gap: 0rem;
+    }
+
+    .gal2 {
+        text-align: center;
+        margin-top: 1rem;
+
+    }
+
+    .gal1 {
+        margin-right: 0rem;
     }
 }

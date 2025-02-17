@@ -91,14 +91,13 @@
 .intro button {
     display: flex;
     border: 1px solid #2F4157;
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 14px 35px;
     color: #2F4157;
     font-size: 12px;
     margin: 15px 0;
     cursor: pointer;
     color: #454545;
-        text-decoration: none;
 }
 
 .intro  a {
